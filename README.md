@@ -1,5 +1,5 @@
 # hello_word
 A repository for my project
 Hi everyone!
-I'm a student at EIVP and i'm learning how to use github for my project.
+I'm a student at EIVP.
 Have a nice day!
