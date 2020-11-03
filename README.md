@@ -1,3 +1,3 @@
-# hello_word
+# Projet Info
 A repository for the project
 
