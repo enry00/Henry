@@ -4,18 +4,11 @@ Created on Thu Nov 19 13:41:09 2020
 
 @author: Henry and Dany 
 """
-#importer pandas, numpy,matplotlib et stats
+#importer pandas et pyplot 
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
-#from datetime import datetime
 print("I-1 Affichage des courbes montrant l’évolution d’une variable et des variables statistiques correspondantes en fonction du temps.")
 v=int(input(' -Veuillez entrer le numéro de la variable (Ex:noise=1,temp=2, hum=3,lum=4,co2=5): '))
-#print('Vous devez choisir vos dates entre le 2019-08-11 et le 2019-08-25')
-#sd=input('Please enter the start date (Ex: 2019-08-11): ')
-#ed=input('Please enter the end date (Ex: 2019-08-15): ')
-#d=datetime.strptime(sd,'%y-%m-%d').date()
-#f=datetime.strptime(ed,'%y-%m-%d').date()
 #lire le fichier csv du projet
 Emplacement_fichier= r'C:\Users\HP\Desktop\Cours IVP1\Algo et programmation\EIVP_KM.csv'
 Em_f=Emplacement_fichier
